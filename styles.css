@@ -2,3 +2,91 @@
     margin: 0;
 }
 
+html {
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    min-width: 35vw;
+    min-height: 35vh;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    padding: 2em;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+#steps {
+    background-color: #bfbfbf;
+    padding: 1em 1.5em;
+    border-radius: 1em;
+}
+
+#steps p {
+    margin-top: 0.3em;
+    font-size: 0.9rem;
+}
+
+.field {
+    min-width: 80%;
+}
+
+.field input {
+    min-width: 100%;
+    height: 2em;
+    border-radius: 0.8em;
+    border-style: solid;
+    border-color: black;
+    font-size: 1em;
+}
+
+.field label,
+.field button,
+#info>p{
+    font-size: 1.2em;
+}
+
+.field button {
+    min-width: 100%;
+    height: 2.5em;
+    background-color: black;
+    color: white;
+    border-radius: 0.6em;
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+button:focus {
+    border-style: solid;
+    border-color: blue;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+}

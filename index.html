@@ -4,30 +4,49 @@
         <meta charset="utf-8" />
         <title>Accessible Form UI</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" src="styles.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <!-- Google Fonts Icons -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=visibility" />
     </head>
     <body>
         <main>
-            <section>
+            <section id="inputs">
                 <div class="field">
                     <label for="fullName">Full Name</label><br />
-                    <input type="text" name="fullName" id="fullName" />
+                    <input type="text" name="fullName" id="fullName" placeholder="What should we call you?" />
                 </div>
                 <div class="field">
                     <label for="fullName">Email</label><br />
-                    <input type="email" name="email" id="email" />
+                    <input type="email" name="email" id="email" placeholder="example@mail.com" />
                 </div>
                 <div class="field">
                     <label for="password">Enter Password</label><br />
-                    <input type="password" name="password" id="password" />
+                    <input type="password" name="password" id="password" placeholder="Select a strong password" />
                 </div>
                 <div class="field">
                     <label for="confirmPass">Confirm Password</label><br />
-                    <input type="password" name="confirmPass" id="confirmPass" />
+                    <input type="password" name="confirmPass" id="confirmPass" placeholder="Repeat your password" />
                 </div>
                 <div class="field">
                     <button type="button">Update Profile</button>
                 </div>
+            </section>
+            <section id="info">
+                <!--Add image for progress here-->
+                <p>Profile Completeness</p>
+                <div id="steps">
+                    <p class="done">Create Account</p>
+                    <p class="done">Update Roadmap Progress</p>
+                    <p class="done">Setup Public Profile</p>
+                    <p>Complete your first project</p>
+                    <p>Invite your friends</p>
+                </div>
+
             </section>
         </main>
     </body>
