@@ -68,7 +68,17 @@ main {
     background-color: white;
     border: none;
     color: black;
+}
+
+.focusable {
+    align-self: center;
+    background-color: white;
+    border-style: none;
     cursor: pointer;
+}
+
+.focusable:focus {
+    outline: 2px solid blue;
 }
 
 .psswd-field {
