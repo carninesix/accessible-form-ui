@@ -44,6 +44,7 @@ main {
     background-color: #bfbfbf;
     padding: 1em 1.5em;
     border-radius: 1em;
+    flex-grow: 2;
 }
 
 #steps p {
