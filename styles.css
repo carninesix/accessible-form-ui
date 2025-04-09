@@ -106,8 +106,7 @@ main {
     
 
 .field label,
-.field #update,
-#info>p{
+.field #update
     font-size: 1.2em;
 }
 
