@@ -124,6 +124,7 @@ button.update {
     box-shadow: none;
     outline: none;
     border: none;
+    font-weight: bold;
 }
 
 .update:focus {
